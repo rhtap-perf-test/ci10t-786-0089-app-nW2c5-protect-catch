@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-esm4
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0089-tenant/ci10t-786-0089-app/devfile-sample-esm4@sha256:bcff386f8988490e3de7e2d4b2994d592bee516e1ad88f04bd640210ce5349b6
+        name: my-nodejs
+        resources: {}
+status: {}
